@@ -1,6 +1,10 @@
 # 🔌 Marp.nvim
 A [neovim](https://neovim.io/) plugin for [Marp](https://marp.app/).
 
+This fork adds Windows support while preserving the original functionality.
+
+Tested on Windows 11 25H2.
+
 ## ✨ Features
 - start/stop the Marp server
 - toggle the Marp server (start/stop)
