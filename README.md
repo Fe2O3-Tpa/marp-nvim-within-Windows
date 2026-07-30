@@ -2,6 +2,7 @@
 A [neovim](https://neovim.io/) plugin for [Marp](https://marp.app/).
 
 Tested on Windows 11 25H2 and Ubuntu 24.04 LTS.
+This fork adds Windows support while preserving the original functionality.
 
 ## ✨ Features
 - start/stop the Marp server
