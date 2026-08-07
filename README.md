@@ -20,21 +20,21 @@ Install the plugin with your preferred package manager:
 Packer:
 ```lua
   use({
-    "mpas/marp-nvim",
+    "fe2o3-tpa/marp-nvim-within-windows",
   }),
 ```
 
 Lazy:
 ```lua
   {
-    "mpas/marp-nvim",
+    "fe2o3-tpa/marp-nvim-within-windows",
   },
 ```
 
 With a specific configuration:
 ```lua
   {
-    "mpas/marp-nvim",
+    "fe2o3-tpa/marp-nvim-within-windows",
     config = function()
       require("marp").setup({
         port = 8080,
@@ -64,8 +64,8 @@ In the above example, the Marp server will be started on port 8080, and the plug
 This plugin does not set any keybindings by default. You can set them yourself like this:
 
 ```lua
-vim.keymap.set("n", "<leader>MT", "<cmd>MarpToggle<cr>", { noremap = true, silent = true })
-vim.keymap.set("n", "<leader>MS", "<cmd>MarpStatus<cr>", { noremap = true, silent = true })
+vim.keymap.set("n", "<leader>mt", "<cmd>MarpToggle<cr>", { noremap = true, silent = true })
+vim.keymap.set("n", "<leader>ms", "<cmd>MarpStatus<cr>", { noremap = true, silent = true })
 ...
 ```
 
